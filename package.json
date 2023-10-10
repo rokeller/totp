@@ -1,0 +1,16 @@
+{
+  "name": "totp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Roger Keller <rokeller@users.noreply.github.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "yarn build && node dist/index.js",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {}
+}
